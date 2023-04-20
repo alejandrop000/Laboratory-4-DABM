@@ -33,22 +33,13 @@ class LoginWindow(QWidget):
         self.label_title.setFont(QFont("Arial",12))
         self.label_title.setStyleSheet("font-weight: bold")
         self.label_title.setGeometry(195,65,180,20)
-        #Texto Usuario
-        # self.label_username = QLabel("Username",self)
-        # self.label_username.setFont(QFont("Arial",10))
-        # self.label_username.setGeometry(225,90,80,20)
+
         #Box para escribir usuario
         self.edit_username = QLineEdit(self)
         self.edit_username.setGeometry(175,100,155,40)
         self.edit_username.setPlaceholderText("Username")
         self.edit_username.setFont(QFont("Arial",10))
         self.edit_username.setClearButtonEnabled(True)
-        
-        #Texto Contraseña
-        
-        # self.label_password = QLabel("Password",self)
-        # self.label_password.setFont(QFont("Arial",10))
-        # self.label_password.setGeometry(225,155,80,20)
         
         #Box para escribir contraseña
         self.edit_password = QLineEdit(self)
